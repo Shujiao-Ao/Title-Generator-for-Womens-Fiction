@@ -11,7 +11,7 @@ import pandas as pd
 
 
 word_file = 'word.csv'
-df = pd.read_csv(input1,index_col=0)
+df = pd.read_csv(word_file, index_col=0)
 
 advs = df.loc['advs']
 
