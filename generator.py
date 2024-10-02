@@ -10,7 +10,7 @@ from random import randint
 import pandas as pd
 
 
-input1 = 'name.csv'
+word_file = 'word.csv'
 df = pd.read_csv(input1,index_col=0)
 
 advs = df.loc['advs']
